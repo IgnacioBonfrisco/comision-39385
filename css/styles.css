@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url("../assets-img/Cancha-de-padel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F9F9F9;
+}
+
+header{
+    background-color: #0E8388;
+    display: flex
+}
+
+footer{
+    background-color: #2C3333;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navBar{
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    gap: 30px;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+.Aplicaciones{
+    text-align: right;
+}
+
+.Mision{
+    padding-top: 20px;
+}
+
+.Mision p{
+    padding-top: 20px;
+}
+
