@@ -13,13 +13,14 @@ main{
 }
 
 header{
-    background-color: #0E8388;
+    background-image: url("http://www.lapluieetlebeautemps.org/wp-content/uploads/2017/01/padel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 10px;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    
 }
 
 .logo img{
@@ -48,7 +49,9 @@ h1{
 
 .navBar li a{
     text-decoration: none;
-    color: #F9F9F9;
+    color:#000000;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .Aplicaciones{
