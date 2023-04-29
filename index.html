@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Centenario Padel Club</title>
+    <script src="https://kit.fontawesome.com/c128b05ef5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-------------------------------------------------comienza el header--------------------------------------------------->
+    <div class="grid-index-html">
     <header>
-        <section class="logo">
-            <img src="./assets-img/logo.jpeg" alt="LOGO" />
-        </section>
+        <div class="logo">
+            <img src="./assets-img/logo.jpeg" alt="logo">
+        </div>
         <nav>
             <ul class="navBar">
                 <li><a href="./pages/Nosotros.html">Nosotros</a></li>
@@ -20,55 +22,29 @@
                 <li><a href="./pages/Reserva.html">Reserva</a></li>
                 <li><a href="./pages/Contacto.html">Contacto</a></li>
             </ul>
+            <input type="checkbox" id="check">
+            <label for="check" class="check-icon">
+            <i class="fa-solid fa-bars"></i></label>
         </nav>
     </header>
     <!-------------------------------------------------termina el header--------------------------------------------------->
     <!-------------------------------------------------comienza el main---------------------------------------------------->
     <main>
-        <div>
-            <p id="Inicio">Inicio</p>
-        </div>
-        <div class="Mision">
-            <h2>Mision</h2>
-            <p>
-                Proporcionar un espacio deportivo de entretenimiento para la práctica de pádel, fomentar el deporte y la actividad física entre la población;
-                contribuir al desarrollo del deporte a nivel local y nacional ya que el mismo se ha vuelto muy popular en los últimos años.
-            </p>
-        </div>
-        <div class="Mision">
-            <h2>Objetivo</h2>
-            <p>
-                Nuestro objetivo es hacer crecer el deporte, que aprendas y que cada vez se sume más gente a este hermoso y completo deporte.
-            </p>
-        </div>
-        <div class="Mision">
-            <h3>Nuestra Cancha</h3>
-                <img src="" alt="Cancha terminada" />
-                <p>Caracteristicas de la cancha</p>
-        </div>
-        <section class="Mision">
-            <h3>Observa y aprende mas sobre el deporte</h3>
-        <div>
-            <article>
-                <video src=""></video>
-                <a href=""></a>
-                <p>Aprende a jugar padel</p>
-                <video src=""></video>
-                <a href=""></a>
-                <p>Mejores tantos de padel</p>
-            </article>
-        </div>
-        <div>
-            <h3>Noticias</h3>
-            <article>
-                <p>Padel en uruguay</p>
-                <img src="" alt="Imagen de padel en uruguay" />
-            </article>
-        </div>
+        <section class="conteiner-p">
+            <div class="container-p1">
+                <h2>Mision</h2>
+                <p>
+                    Proporcionar un espacio deportivo de entretenimiento para la práctica de pádel, fomentar el deporte y la actividad física entre la población;
+                    contribuir al desarrollo del deporte a nivel local y nacional ya que el mismo se ha vuelto muy popular en los últimos años.
+                </p>
+            </div>
+            <div class="container-p2">
+                <h2>Objetivo</h2>
+                <p>
+                    Nuestro objetivo es hacer crecer el deporte, que aprendas y que cada vez se sume más gente a este hermoso y completo deporte.
+                </p>
+            </div>
         </section>
-        <div>
-            <a href="#Inicio">Flechita para arriba</a>
-        </div>
     </main>
     <!-------------------------------------------------termina el main--------------------------------------------------->
     <!-------------------------------------------------comienza el footer------------------------------------------------>
@@ -91,6 +67,7 @@
             <img src="" alt="" />
         </section>
     </footer>
+</div>
     <!-------------------------------------------------termina el footer--------------------------------------------------->
 </body>
 </html>

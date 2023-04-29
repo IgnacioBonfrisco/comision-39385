@@ -2,67 +2,99 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
-main{
-    background-image: url("../assets-img/Cancha-de-padel.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #F9F9F9;
-}
+    .grid-index-html{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 15% repeat(5,100px) auto;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer"
+        ;
 
-header{
-    background-image: url("http://www.lapluieetlebeautemps.org/wp-content/uploads/2017/01/padel.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-}
+    }
 
-.logo img{
-    width:70px;
-    margin-right: 20px;
-    border-radius: 5%;
-}
+/*CSS HEADER*/
 
-footer{
-    background-color: #2C3333;
-}
+    header{
+        grid-area: header;
+        height: 100px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
 
-h1{
-    font-family: 'Bebas Neue', cursive;
-}
+    .navBar{
+        list-style: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        gap: 30px;
+    }
+    
+    .navBar li a{
+        text-decoration: none;
+        color: #F9F9F9;
+        font-size: 30px;
+        font-weight: bolder;
+        transition: 0, 4s;}
 
-.navBar{
-    list-style: none;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    gap: 30px;
-}
+    .logo img{
+        width:50px;
+        margin-right: 50px;
+        border-radius: 5%;}
 
-.navBar li a{
-    text-decoration: none;
-    color:#000000;
-    font-size: 30px;
-    font-weight: bolder;
-}
+/*FIN HEADER*/
 
-.Aplicaciones{
-    text-align: right;
-}
+/*CSS MAIN*/
 
-.Mision{
-    padding-top: 20px;
-}
+    main{
+        background-color: brown;
+        display: grid;
+    }
 
-.Mision p{
-    padding-top: 20px;
-}
+    .conteiner-p1{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 
+    .conteiner-p1{
+        display: grid;
+    }
+
+    .conteiner-p2 {
+        display: grid;
+    }
+
+
+
+/*FIN CSS MAIN*/
+
+/*CSS FOOTER*/
+
+    footer{
+        grid-area: footer;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        background-color: #2C3333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .Aplicaciones{
+        text-align: right;
+    }
+
+/*FIN CSS FOOTER*/
