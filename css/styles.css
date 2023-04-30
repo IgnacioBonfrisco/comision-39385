@@ -4,52 +4,56 @@
     padding: 0%;
     box-sizing: border-box;}
 
-    .grid-index-html{
+
+    .index{
         width: 100%;
         height: 100vh;
         display: grid;
-        grid-template-rows: 15% repeat(5,100px) auto;
-        grid-template-areas: 
-        "header header header"
-        "main main main"
-        "footer footer footer"
-        ;
-
+        grid-template-rows: 120px auto 80px;
+    
     }
 
 /*CSS HEADER*/
-
     header{
-        grid-area: header;
-        height: 100px;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-        align-items: center;
+        color: blue;
     }
 
-    .navBar{
-        list-style: none;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        gap: 30px;
-    }
-    
-    .navBar li a{
-        text-decoration: none;
-        color: #F9F9F9;
-        font-size: 30px;
-        font-weight: bolder;
-        transition: 0, 4s;}
-
-    .logo img{
-        width:50px;
+    .logo{
+        grid-column: 2 / 3;
+        width:60px;
         margin-right: 50px;
         border-radius: 5%;}
+
+        .navBar{
+            display: grid;
+            grid-template-columns: repeat(10,1fr);
+            align-items: center;
+            margin: 15px;
+        }
+
+        .navBar-lista{
+            grid-column: 6 / 10;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navBar-lista li{
+            list-style: none;
+        }
+
+
+        .navBar-lista li a{
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 20px;
+            color: black;
+            transition: 0, 4s;
+            cursor: pointer;
+        }
+
+        .ckeck-icon{
+            display: none;
+        }
 
 /*FIN HEADER*/
 
@@ -57,21 +61,6 @@
 
     main{
         background-color: brown;
-        display: grid;
-    }
-
-    .conteiner-p1{
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-
-    .conteiner-p1{
-        display: grid;
-    }
-
-    .conteiner-p2 {
-        display: grid;
     }
 
 
@@ -81,11 +70,6 @@
 /*CSS FOOTER*/
 
     footer{
-        grid-area: footer;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 8;
-        grid-row-end: 9;
         background-color: #2C3333;
         display: flex;
         align-items: center;
@@ -98,3 +82,25 @@
     }
 
 /*FIN CSS FOOTER*/
+
+
+
+@media(max-width: 475px){
+    .ckeck-icon{
+        display: block;
+        grid-column: 10 / 11;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    .navBar-lista{
+        position: absolute;
+        width: 100%;
+        height: 30vh;
+        display: grid;
+        align-items: center;
+        margin-top: 18em;
+        transform: translate(100%);
+        
+    }
+}
