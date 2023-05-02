@@ -309,6 +309,16 @@
 
 /* FIN CSS MEDIA QUERI GENERAL*/
 
+    /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+        .carousel-item{
+            width: 80%;
+            margin-top: 130px;
+            margin-left: 80px;
+        }
+
+/* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
 /* INICIO CSS MEDIA QUERIES */
 
 @media(max-width: 1024px){
@@ -347,6 +357,17 @@
             font-size: 20px;
         }
         /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
+
+        /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+                .carousel-item{
+                    width: 85%;
+                    margin-top: 150px;
+                    margin-left: 40px;
+                }
+        
+        /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
         /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
         .grid-footer{
             display: grid;
@@ -400,6 +421,18 @@
             font-size: 18px;
         }
         /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+
+        /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+        .carousel-item{
+            width: 80%;
+            margin-top: 220px;
+            margin-left: 40px;
+        }
+
+        /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+
         /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
         .grid-footer{
             display: grid;
@@ -446,6 +479,13 @@
         grid-column: 1 / 2;
         grid-row: 2 / 2;
     }
+
+    .carousel-item{
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+
     /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
     .grid-footer{
         display: grid;
@@ -490,7 +530,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 4em;
+        margin-top: 7em;
         background-color: rgb(56, 128, 223);
         transition: 1s;
         transform: translate(-100%);
