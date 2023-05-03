@@ -570,9 +570,14 @@
         }
         /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
 
+
+        .grid-nosotros-1{
+            margin-top: 15px;
+        }
+
         .grid-nosotros-2{
             grid-column: 1 / 2;
-            margin-top: 170px;
+            margin-top: 190px;
         }
     
         .carousel-item{
