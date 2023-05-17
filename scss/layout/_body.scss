@@ -1,0 +1,9 @@
+
+body{
+    div{
+        .index , .nosotros , .clases , .reserva , .contacto{
+            @include grid (90px auto 80px, none, none, 100%, none, none, none, none, none)
+        }
+    }
+    
+}

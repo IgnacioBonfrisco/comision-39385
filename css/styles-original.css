@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+
+
+    .index , .nosotros , .clases , .reserva , .contacto{
+        width: 100%;
+        display: grid;
+        grid-template-rows: 90px auto 80px;
+    }
+
+
+/*CSS HEADER*/
+
+        header{
+            background-size: cover;
+            background-image: url("https://1.bp.blogspot.com/-CZ9IZqjQVpk/WMQvcIHs2aI/AAAAAAAAd-c/Jz0jaJd-vwkBgWGOOBPjUi2foFS2nwCvACLcB/s1600/cielos%2Bdespejados.JPG")
+            
+        }
+
+    .logo{
+        grid-column: 2 / 3;
+        width:60px;
+        border-radius: 5%;}
+
+        .navBar{
+            display: grid;
+            grid-template-columns: repeat(10,1fr);
+            align-items: center;
+        }
+
+        .navBar-lista{
+            grid-column: 6 / 10;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navBar-lista li{
+            list-style: none;
+        }
+
+
+        .navBar-lista li a{
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 25px;
+            color: white; 
+            transition: 0, 4s;
+            cursor: pointer;
+        }
+
+        .ckeck-icon{
+            display: none;
+        }
+
+/*FIN HEADER*/
+
+/*CSS MAIN*/
+
+/* INICIO MAIN INDEX HTML*/
+
+    main{
+        background-image: url(https://www.stmsportgroup.com/wp-content/uploads/2018/10/Canchas-Padel-STM-GROUP-Cali-Colombia-CHALET-EL-CIGARRAL-6.jpg);
+        background-size: cover;
+    }
+
+    .grid-index{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        height: 80vh;
+    }
+
+    .grid-index-1{
+        grid-row: 1 / 2;
+        margin-top: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+
+    .index-1-parrafo{
+        margin-top: 20px;
+    }
+
+    .grid-index-2{
+        grid-row: 1 / 2;
+        margin-top: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+
+    .index-2-parrafo{
+        margin-top: 20px;
+    }
+
+    .grid-index-3{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .grid-index-4{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    
+/* FIN MAIN INDEX HTML*/
+
+/* INICIO MAIN NOSOTROS HTML*/
+
+.grid-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 86vh;
+}
+
+.grid-nosotros-1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.nosotros-1-parrafo{
+    margin-top: 25px;
+}
+
+.grid-nosotros-2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+/* FIN MAIN NOSOTROS HTML*/
+
+/* INICIO MAIN CLASES HTML*/
+
+.grid-clases{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 80vh;
+}
+
+.grid-clases-1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.grid-nav-clases li{
+    margin-top: 25px;
+}
+
+.grid-clases-2{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.grid-clases-3{
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.grid-nav-clases-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* FIN MAIN CLASES HTML*/
+
+/* INICIO MAIN RESERVA HTML*/
+
+.grid-reserva{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 80vh;
+}
+
+.grid-reserva-1{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+.grid-reserva-2{
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+/* FIN MAIN RESERVA HTML*/
+
+/* INICIO MAIN CONTACTOS HTML*/
+
+.grid-contacto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 80vh;
+}
+
+.grid-contacto-1{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+.grid-contacto-2{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* FIN MAIN CONTACTOS HTML*/
+
+
+/*FIN CSS MAIN*/
+
+/*CSS FOOTER*/
+
+    footer{
+        background-color: #2C3333;
+    }
+
+
+    .grid-footer{
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        height: 80px;
+    }
+
+    .grid-footer-1{
+        grid-column: 2 / 7;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    .grid-footer-2{
+        grid-column: 9 / 11;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+
+
+
+/*FIN CSS FOOTER*/
+
+
+/* CSS MEDIA QUERI 5 HTML*/
+
+/* INICIO CSS MEDIA QUERI GENERAL*/
+
+@media(max-width: 3000px){
+    .toggle-menu-checkbox, .toggle-menu{
+        display: none;
+    }
+            /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+
+        
+            .grid-footer-1 h3{
+                color: white;
+            }
+        
+            .grid-footer{
+                color: white;
+            }
+    
+            /* FIN CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+}
+
+/* FIN CSS MEDIA QUERI GENERAL*/
+
+    /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+        .carousel-item{
+            width: 80%;
+            margin-top: 50px;
+            margin-left: 80px;
+        }
+
+/* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+/* INICIO CSS MEDIA QUERIES */
+
+@media(max-width: 1024px){
+
+    /* INICIO CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+    .logo{
+        grid-column: 3 / 4;
+        }
+        .navBar{
+            display: grid;
+            grid-template-columns: repeat(9,1fr);
+        }
+        .navBar-lista{
+            grid-column: 5 / 9;
+        }
+        .navBar-lista li a{
+            font-size: 20px;
+        }
+        /* FIN CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+        /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN) */
+        .grid-reserva{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+            height: 80vh;
+        }
+        .grid-reserva-1{
+            grid-column: 1 / 3;
+            grid-row: 1 / 2;
+            font-size: 20px;
+        }
+        
+        .grid-reserva-2{
+            grid-column: 1 / 3;
+            grid-row: 2 / 3;
+            font-size: 20px;
+        }
+        /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
+
+        /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+                .carousel-item{
+                    width: 85%;
+                    margin-top: 150px;
+                    margin-left: 40px;
+                }
+        
+        /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+        /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+        .grid-footer{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+        }
+    
+        .grid-footer-1{
+            grid-column: 1 / 6;
+            color: white;
+            font-size: 15px;
+            margin-left: 15px;
+        }
+    
+        .grid-footer-2{
+            grid-column: 7 / 9;
+        }
+
+        .toggle-menu-checkbox, .toggle-menu{
+            display: none;
+        }
+        /* FIN CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+}
+
+@media(max-width: 768px){
+        /* INICIO CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+        .navBar{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+        }
+        .navBar-lista{
+            grid-column: 4 / 7;
+        }
+        .navBar-lista li a{
+            font-size: 18px;
+        }
+        /* FIN CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+        /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+        .grid-reserva{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: 265px 265px;
+            height: 80vh;
+        }
+        .grid-reserva-1{
+            grid-column: 1 / 1;
+            font-size: 18px;
+        }
+        
+        .grid-reserva-2{
+            grid-column: 1 / 2;
+            grid-row: 2 / 2;
+            font-size: 18px;
+        }
+        /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+
+        /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+        .grid-nosotros-1{
+            font-size: 15px;
+        }
+        .carousel-item{
+            width: 80%;
+            margin-top: 150px;
+            margin-left: 40px;
+        }
+
+        /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+
+        /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+        .grid-footer{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+        }
+    
+        .grid-footer-1 h3{
+            font-size: 15px;
+        }
+        .grid-footer-2{
+            grid-column: 6 / 8;
+        }
+
+        .toggle-menu-checkbox, .toggle-menu{
+            display: none;
+        }
+        /* FIN CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+}
+
+@media(max-width: 475px){
+
+    /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+    .grid-reserva-1{
+        font-size: 16px;
+    }
+    
+    .grid-reserva-2{
+        font-size: 16px;
+    }
+    /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+    
+    /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+    
+    .grid-nosotros{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 265px 265px;
+        height: 80vh;
+    }
+    .grid-nosotros-1{
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+        font-size: 10px;
+    }
+    
+    .grid-nosotros-2{
+        grid-column: 1 / 2;
+        margin-top: 120px;
+    }
+
+    .carousel-item{
+        width: 70%;
+        margin-left: 70px;
+    }
+
+    /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+    .grid-footer{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    .grid-footer-1{
+        grid-column: 1 / 4;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .grid-footer-2{
+        grid-column: 4 / 6;
+        margin-right: 2px;
+    }
+    /* FIN CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+
+    /*MENU HAMBURGUESA 5 HTML */
+
+    .toggle-menu-checkbox:checked + .navBar-lista{
+        transform: translate(0);
+    }
+
+    .toggle-menu-checkbox{
+        display: none;
+    }
+
+    .toggle-menu{
+        display: block;
+        position: absolute;
+        color: white;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .navBar-lista{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5em;
+        background-color: rgb(56, 128, 223);
+        transition: 1s;
+        transform: translate(-100%);
+    }   
+    .navBar-lista li{
+        padding: 10px;
+    }
+    /*FIN MENU HAMBURGUESA HTML */
+}
+
+@media(max-width: 320px){
+        /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+        .grid-reserva-1{
+            font-size: 12px;
+        }
+        
+        .grid-reserva-2{
+            font-size: 12px;
+        }
+        /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+
+
+        .grid-nosotros-1{
+            margin-top: 15px;
+        }
+
+        .grid-nosotros-2{
+            grid-column: 1 / 2;
+            margin-top: 190px;
+        }
+    
+        .carousel-item{
+            width: 70%;
+            margin-left: 50px;
+        }
+    
+
+
+        /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+
+        .grid-footer{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+    
+        .grid-footer-1 h3{
+            grid-column: 1 /4;
+            font-size: 15px;
+            margin-right: 10px;
+        }
+    
+        .grid-footer-2{
+            grid-column: 4 / 6;
+        }
+
+        /* FIN CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+}
+
+
+/* FIN CSS MEDIA QUERIES*/
