@@ -1,12 +1,10 @@
-@mixin grid ($col, $row, $height, $width, $justify, $aling, $margin, $font, $color){
+@mixin grid ($col, $row, $margin, $text, $font, $color){
     display: grid;
     grid-template-columns: $col;
     grid-template-rows: $row;
-    height: $height;
-    width: $width;
-    justify-content: $justify;
-    align-items: $aling;
     margin: $margin;
+    text-align: $text;
     font-size: $font;
     color: $color;
 }
+

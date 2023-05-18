@@ -6,16 +6,9 @@
 }
 
 body div .index, body div .nosotros, body div .clases, body div .reserva, body div .contacto {
-  display: grid;
-  grid-template-columns: 90px auto 80px;
-  grid-template-rows: none;
-  height: none;
   width: 100%;
-  justify-content: none;
-  align-items: none;
-  margin: none;
-  font-size: none;
-  color: none;
+  display: grid;
+  grid-template-rows: 90px auto 80px;
 }
 
 header {
@@ -69,7 +62,7 @@ main section {
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 
