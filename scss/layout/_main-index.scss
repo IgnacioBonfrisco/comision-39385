@@ -2,10 +2,11 @@ main{
     background-size: cover;
     background-image: url(https://www.stmsportgroup.com/wp-content/uploads/2018/10/Canchas-Padel-STM-GROUP-Cali-Colombia-CHALET-EL-CIGARRAL-6.jpg);
     section{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(2,1fr);
-        height: 80vh;
+        main{
+            section{
+                @include grid(repeat(3, 1fr), repeat(2, 1fr), 80vh)
+            }
+        }
     }
 }
 
@@ -15,7 +16,7 @@ main{
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 

@@ -1,10 +1,7 @@
-@mixin grid ($col, $row, $margin, $text, $font, $color){
+@mixin grid ($col, $row, $height){
     display: grid;
     grid-template-columns: $col;
     grid-template-rows: $row;
-    margin: $margin;
-    text-align: $text;
-    font-size: $font;
-    color: $color;
+    height: $height;
 }
 
