@@ -1,0 +1,30 @@
+/* INICIO CSS MEDIA QUERI GENERAL*/
+@media(max-width: 3000px){
+    .toggle-menu-checkbox, .toggle-menu{
+        display: none;
+    }
+            /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+
+        
+            .grid-footer-1 h3{
+                color: white;
+            }
+        
+            .grid-footer{
+                color: white;
+            }
+    
+            /* FIN CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
+}
+
+/* FIN CSS MEDIA QUERI GENERAL*/
+
+    /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+
+        .carousel-item{
+            width: 80%;
+            margin-top: 50px;
+            margin-left: 80px;
+        }
+
+/* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
