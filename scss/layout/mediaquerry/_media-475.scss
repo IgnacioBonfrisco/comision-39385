@@ -9,6 +9,22 @@
         font-size: 16px;
     }
     /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+
+        /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
+
+        
+        .formulario{
+            margin-top: 70px;
+            width: 90%;
+            font-size: 20px; 
+        }
+
+        .tamaño{
+            display: none;
+        }
+    
+    
+        /* FIN CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
     
     /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
     
@@ -48,7 +64,7 @@
 
     .grid-footer-2{
         grid-column: 4 / 6;
-        margin-right: 2px;
+        margin-right: 10px;
     }
     /* FIN CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
 
