@@ -13,8 +13,7 @@ body div .index, body div .nosotros, body div .clases, body div .reserva, body d
 }
 
 header {
-  background-size: cover;
-  background-image: url("https://1.bp.blogspot.com/-CZ9IZqjQVpk/WMQvcIHs2aI/AAAAAAAAd-c/Jz0jaJd-vwkBgWGOOBPjUi2foFS2nwCvACLcB/s1600/cielos%2Bdespejados.JPG");
+  background-image: linear-gradient(0, #19355b 0, #467ac8 50%, #70d6e6 100%);
 }
 header nav {
   display: grid;
@@ -47,8 +46,7 @@ header nav input {
 }
 
 main {
-  background-size: cover;
-  background-image: url(https://www.stmsportgroup.com/wp-content/uploads/2018/10/Canchas-Padel-STM-GROUP-Cali-Colombia-CHALET-EL-CIGARRAL-6.jpg);
+  background-image: linear-gradient(0, #77c0ff 0, #467ac8 50%, #1c3a64 100%);
 }
 main section main section {
   display: grid;
@@ -283,7 +281,7 @@ main section {
 }
 
 footer {
-  background-color: #2C3333;
+  background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
 }
 footer section {
   display: grid;
