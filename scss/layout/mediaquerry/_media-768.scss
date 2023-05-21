@@ -15,7 +15,7 @@
     .grid-reserva{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows: 265px 265px;
+        grid-template-rows: repeat(3,1fr);
         height: 80vh;
     }
     .grid-reserva-1{

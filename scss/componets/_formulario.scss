@@ -1,3 +1,5 @@
+/*Formulario contacto*/
+
 .grid-contacto-1{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0);
     border-radius: 25px;
@@ -46,3 +48,56 @@ label{
     box-shadow: 0 0 20px rgba(201, 199, 253, 0.5);
     cursor: pointer;
 }
+
+/*Fin Formulario contacto*/
+
+/*Formulario Reserva*/
+
+.grid-reserva-2{
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0);
+        border-radius: 20px;
+    
+}
+
+.Reserva{
+    padding: 5px 200px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.box-1{
+    border: 0;
+    background-color: #f4f4fd;
+    border-radius: 20px;
+    padding: 5px;
+    outline: none;
+}
+
+.box-2{
+    margin-top: 30px;
+    width: 20%;
+    border: 0;
+    background-color: #f4f4fd;
+    border-radius: 20px;
+    padding: 5px;
+    outline: none;
+}
+
+.submit-1{
+    margin-top: 20px;
+    background-color: #817ffe;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 250px;
+    box-shadow: 0 0 20px rgba(201, 199, 253, 0.5);
+    cursor: pointer;
+}
+
+.Reserva-1{
+    margin-top: 30px;
+    font-size: 30px;
+}
+    
