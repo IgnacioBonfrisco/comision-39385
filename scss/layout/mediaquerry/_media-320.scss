@@ -1,9 +1,6 @@
 @media(max-width: 320px){
     /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
 
-    .grid-reserva{
-        grid-template-columns: 320px;
-    }
     .grid-reserva-1{
         font-size: 12px;
     }
@@ -42,12 +39,12 @@
     }
 
     .grid-contacto{
-        grid-template-columns: 320px;
         grid-template-rows: repeat(3,1fr);
     }
 
     .grid-contacto-2{
         width: 100px;
+        display: none;
     }
 
     .tamaño{

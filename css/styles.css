@@ -602,7 +602,6 @@ footer section {
 @media (max-width: 425px) {
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
   .grid-reserva {
-    grid-template-columns: 420px;
     grid-template-rows: repeat(7, 1fr);
   }
   .grid-reserva-1 {
@@ -637,10 +636,10 @@ footer section {
   /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
   .grid-contacto {
-    height: 180vh;
-    grid-template-columns: 420px;
+    height: 150vh;
   }
   .grid-contacto-2 {
+    display: none;
     grid-column: 1/2;
     grid-row: 2/4;
   }
@@ -723,9 +722,6 @@ footer section {
 }
 @media (max-width: 320px) {
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
-  .grid-reserva {
-    grid-template-columns: 320px;
-  }
   .grid-reserva-1 {
     font-size: 12px;
   }
@@ -755,11 +751,11 @@ footer section {
     font-size: 15px;
   }
   .grid-contacto {
-    grid-template-columns: 320px;
     grid-template-rows: repeat(3, 1fr);
   }
   .grid-contacto-2 {
     width: 100px;
+    display: none;
   }
   .tamaño {
     width: 100px;

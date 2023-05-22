@@ -3,7 +3,6 @@
     /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
 
     .grid-reserva{
-        grid-template-columns: 420px;
         grid-template-rows: repeat(7,1fr);
     }
     .grid-reserva-1{
@@ -47,11 +46,11 @@
         /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
         
         .grid-contacto{
-            height: 180vh;
-            grid-template-columns: 420px;
+            height: 150vh;
         }
 
         .grid-contacto-2{
+            display: none;
             grid-column: 1 / 2;
             grid-row: 2 / 4;
         }
