@@ -11,21 +11,27 @@
     /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
 
         /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
-
         
-        .formulario{
-            margin-top: 70px;
-            width: 60%;
-            font-size: 20px; 
+        .grid-contacto{
+            height: 180vh;
+            grid-template-columns: 420px;
         }
 
         .grid-contacto-2{
-            grid-row: 2 / 5;
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
         }
-
+        
+        .formulario{
+            margin-top: 70px;
+            width: 90%;
+            font-size: 20px;
+        }
+        
+        
         .tamaño{
             width: 200px;
-            margin-right: 250px;
+            margin-right: 70px;
         }
     
     

@@ -13,9 +13,21 @@
 
         
     .formulario{
-        margin-top: 50px;
+        margin-top: 30px;
         width: 95%;
-        font-size: 20px; 
+        font-size: 15px; 
+    }
+
+    .grid-contacto{
+        grid-template-columns: 320px;
+    }
+
+    .grid-contacto-2{
+        width: 100px;
+    }
+
+    .tamaño{
+        width: 150px;
     }
     
     .submit{
