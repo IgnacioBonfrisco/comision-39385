@@ -1,4 +1,4 @@
-@media(max-width: 475px){
+@media(max-width: 425px){
 
     /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
     .grid-reserva-1{
@@ -15,12 +15,17 @@
         
         .formulario{
             margin-top: 70px;
-            width: 90%;
+            width: 60%;
             font-size: 20px; 
         }
 
+        .grid-contacto-2{
+            grid-row: 2 / 5;
+        }
+
         .tamaño{
-            display: none;
+            width: 200px;
+            margin-right: 250px;
         }
     
     

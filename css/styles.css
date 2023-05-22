@@ -312,8 +312,8 @@ main section {
 main section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  height: 80vh;
+  grid-template-rows: repeat(4, 1fr);
+  height: 100vh;
 }
 
 .grid-contacto-1 {
@@ -386,6 +386,17 @@ footer section {
 }
 
 /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+.formulario {
+  margin-top: 90px;
+  margin-left: 70px;
+  width: 40%;
+}
+
+.ubicacion {
+  margin-top: 90px;
+  margin-right: 50px;
+}
+
 /* INICIO CSS MEDIA QUERIES */
 @media (max-width: 1024px) {
   /* INICIO CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
@@ -430,12 +441,12 @@ footer section {
   /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
   .formulario {
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     width: 40%;
   }
   .ubicacion {
-    margin-top: 50px;
+    margin-top: 150px;
     margin-right: 50px;
   }
   /* FIN CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
@@ -528,7 +539,7 @@ footer section {
   }
   /* FIN CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
 }
-@media (max-width: 475px) {
+@media (max-width: 425px) {
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
   .grid-reserva-1 {
     font-size: 16px;
@@ -540,11 +551,15 @@ footer section {
   /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
   .formulario {
     margin-top: 70px;
-    width: 90%;
+    width: 60%;
     font-size: 20px;
   }
+  .grid-contacto-2 {
+    grid-row: 2/5;
+  }
   .tamaño {
-    display: none;
+    width: 200px;
+    margin-right: 250px;
   }
   /* FIN CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
