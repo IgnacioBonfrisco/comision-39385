@@ -21,6 +21,10 @@
 
     /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
 
+        .grid-nosotros-1{
+            margin-top: 150px;
+        }
+
         .carousel-item{
             width: 80%;
             margin-top: 50px;
@@ -29,7 +33,7 @@
 
 /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
 
-
+/* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
 .formulario{
     margin-top: 90px;
     margin-left: 70px;
@@ -40,3 +44,19 @@
     margin-top: 150px;
     margin-right: 50px;
 }
+
+/* FIN CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
+
+/* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+.box-1{
+    text-align: center;
+    width: 95%;
+}
+
+.box-2{
+    margin-top: 40px;
+    width: 20%;
+    text-align: center;
+    }
+
+/* DIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
