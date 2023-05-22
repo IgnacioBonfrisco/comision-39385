@@ -8,37 +8,37 @@
     .grid-reserva-1{
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 16px;
+        font-size: 14px;
         grid-row: 5 / 8;
     }
     
-    .grid-reserva-2{
-        margin-top: 50px;
-        font-size: 16px;
-        grid-row: 1 / 4;
+    .grid-reserva-2{    
+        font-size: 14px;
+        grid-row: 1 / 5;
     }
     
     .reserva-video{
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
     }
 
     .Reserva{
-        padding: 5px 10px;
+        padding: 0px 50px;
     }
     
     .box-1{
         margin-top: 0;
-        padding: 10px;
+        padding: 5px;
         width: -50%
     }
     
     .box-2{
+        margin-top: 10px;
         width: 20%;
     }
 
     .grid-reserva-1{
-        margin-top: 30px;
+        margin-top: 5px;
     }
     
     /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/

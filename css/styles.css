@@ -607,31 +607,31 @@ footer section {
   .grid-reserva-1 {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 16px;
+    font-size: 14px;
     grid-row: 5/8;
   }
   .grid-reserva-2 {
-    margin-top: 50px;
-    font-size: 16px;
-    grid-row: 1/4;
+    font-size: 14px;
+    grid-row: 1/5;
   }
   .reserva-video {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
   }
   .Reserva {
-    padding: 5px 10px;
+    padding: 0px 50px;
   }
   .box-1 {
     margin-top: 0;
-    padding: 10px;
+    padding: 5px;
     width: -50%;
   }
   .box-2 {
+    margin-top: 10px;
     width: 20%;
   }
   .grid-reserva-1 {
-    margin-top: 30px;
+    margin-top: 5px;
   }
   /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
@@ -722,23 +722,32 @@ footer section {
 }
 @media (max-width: 320px) {
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+  .grid-reserva {
+    grid-template-rows: repeat(7, 1fr);
+  }
   .grid-reserva-1 {
     font-size: 12px;
+    grid-row: 5/8;
   }
   .grid-reserva-2 {
     font-size: 12px;
     margin-top: 0;
+  }
+  .Reserva {
+    padding: 5px 25px;
   }
   .box-1 {
     padding: 5px;
     width: 95%;
   }
   .box-2 {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 20%;
   }
   .submit-1 {
+    margin-top: 0;
     width: 50%;
+    padding: 5px;
   }
   .reserva-video {
     width: 250px;
