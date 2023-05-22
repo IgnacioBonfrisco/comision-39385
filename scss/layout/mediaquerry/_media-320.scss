@@ -10,6 +10,25 @@
     
     .grid-reserva-2{
         font-size: 12px;
+        margin-top: 0;
+    }
+
+    .box-1{
+        padding: 5px;
+        width: 95%
+    }
+    
+    .box-2{
+        margin-top: 20px;
+        width: 20%;
+    }
+    
+    .submit-1{
+        width: 50%;
+    }
+
+    .reserva-video{
+        width: 250px;
     }
     /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
 
@@ -24,6 +43,7 @@
 
     .grid-contacto{
         grid-template-columns: 320px;
+        grid-template-rows: repeat(3,1fr);
     }
 
     .grid-contacto-2{
@@ -31,7 +51,7 @@
     }
 
     .tamaño{
-        width: 150px;
+        width: 100px;
     }
     
     .submit{
