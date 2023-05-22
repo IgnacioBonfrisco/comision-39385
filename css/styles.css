@@ -394,6 +394,7 @@ footer section {
   margin-top: 90px;
   margin-left: 70px;
   width: 70%;
+  color: white;
 }
 
 .grid-contacto-2 {
@@ -649,6 +650,7 @@ footer section {
   /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
   .grid-contacto {
     height: 150vh;
+    grid-template-columns: repeat(1, 1fr);
   }
   .grid-contacto-2 {
     display: none;
@@ -657,8 +659,11 @@ footer section {
   }
   .formulario {
     margin-top: 70px;
-    width: 90%;
+    width: 80%;
     font-size: 20px;
+  }
+  .box {
+    padding: 3px;
   }
   .tamaño {
     width: 200px;
@@ -728,7 +733,7 @@ footer section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5em;
+    margin-top: 6em;
     background-color: rgb(56, 128, 223);
     transition: 1s;
     transform: translate(-100%);
@@ -779,6 +784,7 @@ footer section {
   }
   .grid-contacto {
     grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .grid-contacto-2 {
     width: 100px;
