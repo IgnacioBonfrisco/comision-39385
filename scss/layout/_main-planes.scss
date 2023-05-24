@@ -1,0 +1,19 @@
+main{
+    section{
+        @include grid(repeat(2, 1fr), repeat(2, 1fr), 80vh)
+    }
+}
+
+.grid-clases-1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+.grid-nav-clases li{
+    margin-top: 25px;
+}
