@@ -1,20 +1,23 @@
-main{
+.main-nosotros{
+    background-image: url(../../assets-img/ball-from-container.jpg);
+    background-size: cover;
     section{
-        @include grid(repeat(2, 1fr), repeat(4, 1fr), 86vh)
+        @include grid(repeat(2, 1fr), repeat(4, 1fr), 110vh)
     }
 }
 
 .grid-nosotros-1{
     grid-column: 1 / 2;
     grid-row: 1 / 5;
-    margin-top: 50px;
+    margin-left: 20px;
     text-align: center;
     font-size: 20px;
     color: white;
+    font-weight: bolder;
 }
 
 .nosotros-1-parrafo{
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .grid-nosotros-2{
