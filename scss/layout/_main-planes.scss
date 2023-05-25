@@ -20,12 +20,14 @@ main{
 }
 
 .planes{
+    color: white;
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .cards-planes{
+    color: white;
     height: 100%;
     padding-top: 30px;
     margin-left: 120px;
@@ -34,5 +36,18 @@ main{
     justify-content:space-between
 }
 .grid-nav-clases li{
-    margin-top: 25px;
+    margin-top: 5px;
+    list-style: none;
 }
+
+.plan-1, .plan-2 ,.plan-3{
+    text-align: center;
+    background-color: #0B2447;
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+
+
