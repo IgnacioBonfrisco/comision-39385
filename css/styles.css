@@ -46,8 +46,7 @@ header nav input {
 }
 
 .main-index {
-  background-image: url(../../assets-img/Padel-tenis-comunidad.jpg);
-  background-size: cover;
+  background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
 }
 .main-index section {
   display: grid;
