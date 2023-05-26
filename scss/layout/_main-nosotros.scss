@@ -1,7 +1,5 @@
 .main-nosotros{
-    section{
-        @include grid(repeat(2, 1fr), repeat(4, 1fr), 110vh)
-    }
+        @include grid(repeat(4, 1fr), repeat(4, 1fr), 110vh)
 }
 
 .grid-nosotros-1{
