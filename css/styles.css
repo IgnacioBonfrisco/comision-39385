@@ -110,6 +110,7 @@ header nav input {
   background-image: url(../assets-img/angle-palette-balls.jpg);
   background-size: cover;
 }
+
 .grid-nosotros-1 {
   grid-column: 1/2;
   grid-row: 1/5;
