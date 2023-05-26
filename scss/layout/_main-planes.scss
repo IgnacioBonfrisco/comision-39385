@@ -1,6 +1,8 @@
 main{
+    background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
+    /*
     background-image: url(../../assets-img/paddle-tennis-white-line.jpg);
-    background-size: cover;
+    background-size: cover;*/
     section{
         @include grid(repeat(2, 1fr), repeat(4, 1fr), 110vh)
     }

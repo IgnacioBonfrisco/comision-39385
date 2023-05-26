@@ -1,6 +1,7 @@
 .main-nosotros{
+    /*
     background-image: url(../../assets-img/ball-from-container.jpg);
-    background-size: cover;
+    background-size: cover;*/
     section{
         @include grid(repeat(2, 1fr), repeat(4, 1fr), 110vh)
     }
