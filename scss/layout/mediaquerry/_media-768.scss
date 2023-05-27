@@ -11,7 +11,29 @@
         font-size: 18px;
     }
     /* FIN CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+            /* INICIO CSS MEDIA QUERI INICIO.HTML (MAIN) */
+        
+            .comunidad-padel{
+                font-size: 60px;
+                padding-top: 100px;
+            }
+    
+            .grid-index-1{
+                font-size: 16px;
+            }
+    
+            .grid-index-2{
+                font-size: 16px;
+            }
+    
+    
+    
+            /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
     /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+    
+    .pagina-reserva{
+        @include grid(repeat(1, 1fr), repeat(8, 1fr), 180vh)
+    }
     
     .Reserva{
         padding: 20px 200px;
@@ -33,6 +55,7 @@
     }
 
     .grid-reserva-1{
+        font-size: 16px;
         margin-top: 30px;
     }
 
@@ -66,12 +89,17 @@
     /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
 
     .grid-nosotros-1{
-        font-size: 15px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nosotros-1-h2{
+        font-size: 25px;
     }
     .carousel-item{
         width: 80%;
-        margin-top: 150px;
-        margin-left: 40px;
+        margin-top: 120px;
+        margin-left: 39px;
     }
 
     .carousel-control-prev{

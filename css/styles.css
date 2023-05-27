@@ -45,24 +45,33 @@ header nav input {
   display: none;
 }
 
-main {
-  background-image: linear-gradient(0, #77c0ff 0, #467ac8 50%, #1c3a64 100%);
-}
-main section main section {
+.pagina-inicio {
+  background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  height: 80vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 110vh;
+}
+
+.comunidad-padel {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  text-align: center;
+  color: rgba(146, 138, 138, 0.712);
+  font-weight: bolder;
+  font-size: 100px;
 }
 
 .grid-index-1 {
-  grid-row: 1/2;
-  margin-top: 60px;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  margin-top: 120px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
   font-size: 20px;
   color: white;
+  font-weight: bolder;
 }
 
 .index-1-parrafo {
@@ -70,36 +79,23 @@ main section main section {
 }
 
 .grid-index-2 {
-  grid-row: 1/2;
-  margin-top: 60px;
+  grid-column: 2/3;
+  grid-row: 3/5;
+  margin-top: 120px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
   font-size: 20px;
   color: white;
+  font-weight: bolder;
 }
 
 .index-2-parrafo {
   margin-top: 20px;
 }
 
-.grid-index-3 {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-right: 20px;
-}
-
-.grid-index-4 {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-right: 20px;
-}
-
-main section {
+.pagina-nosotros {
+  background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -236,11 +232,12 @@ label {
   font-size: 30px;
 }
 
-main section {
+.pagina-planes {
+  background-image: linear-gradient(0, #77c0ff 0, #467ac8 50%, #1c3a64 100%);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  height: 80vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 110vh;
 }
 
 .grid-clases-1 {
@@ -289,11 +286,12 @@ main section {
   transition: 500ms;
 }
 
-main section {
+.pagina-reserva {
+  background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  height: 86vh;
+  height: 100vh;
 }
 
 .grid-reserva-1 {
@@ -318,7 +316,8 @@ main section {
   margin-top: 40px;
 }
 
-main section {
+.pagina-contacto {
+  background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -397,6 +396,14 @@ footer section {
   margin-left: 80px;
 }
 
+.carousel-control-prev {
+  margin-top: 200px;
+}
+
+.carousel-control-next {
+  margin-top: 200px;
+}
+
 /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
 /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
 .formulario {
@@ -442,6 +449,18 @@ footer section {
     font-size: 20px;
   }
   /* FIN CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+  /* INICIO CSS MEDIA QUERI INICIO.HTML (MAIN) */
+  .comunidad-padel {
+    font-size: 80px;
+    padding-top: 80px;
+  }
+  .grid-index-1 {
+    font-size: 18px;
+  }
+  .grid-index-2 {
+    font-size: 18px;
+  }
+  /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN) */
   .grid-reserva {
     grid-template-columns: repeat(1, 1fr);
@@ -459,9 +478,15 @@ footer section {
   }
   /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
   /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+  .grid-nosotros-1 {
+    margin-top: 120px;
+    font-size: 16px;
+  }
+  .grid-nosotros-2 {
+    margin-top: 50px;
+  }
   .carousel-item {
     width: 85%;
-    margin-top: 150px;
     margin-left: 40px;
   }
   .carousel-control-prev {
@@ -472,38 +497,37 @@ footer section {
   }
   /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+  .pagina-reserva {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 160vh;
+  }
   .Reserva {
     padding: 50px 200px;
     font-weight: bolder;
   }
   .box-1 {
-    margin-top: 20px;
-    border: 0;
-    background-color: #f4f4fd;
-    border-radius: 20px;
-    padding: 15px;
-    outline: none;
-    text-align: center;
-    width: 100%;
-  }
-  .box-2 {
-    margin-top: 40px;
-    width: 25%;
+    margin-top: 5px;
     border: 0;
     background-color: #f4f4fd;
     border-radius: 20px;
     padding: 5px;
-    outline: none;
-    text-align: center;
+    width: 100%;
+  }
+  .box-2 {
+    margin-top: 40px;
+    width: 15%;
   }
   .submit-1 {
     margin-top: 40px;
   }
   .grid-reserva-1 {
+    grid-row: 5/9;
     margin-top: 30px;
   }
   .grid-reserva-2 {
-    margin-top: 0;
+    margin-top: 30px;
   }
   /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
@@ -552,7 +576,25 @@ footer section {
     font-size: 18px;
   }
   /* FIN CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+  /* INICIO CSS MEDIA QUERI INICIO.HTML (MAIN) */
+  .comunidad-padel {
+    font-size: 60px;
+    padding-top: 100px;
+  }
+  .grid-index-1 {
+    font-size: 16px;
+  }
+  .grid-index-2 {
+    font-size: 16px;
+  }
+  /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
+  .pagina-reserva {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 180vh;
+  }
   .Reserva {
     padding: 20px 200px;
   }
@@ -570,6 +612,7 @@ footer section {
     margin-top: 10px;
   }
   .grid-reserva-1 {
+    font-size: 16px;
     margin-top: 30px;
   }
   /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
@@ -591,12 +634,17 @@ footer section {
   /* FIN CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
   .grid-nosotros-1 {
-    font-size: 15px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .nosotros-1-h2 {
+    font-size: 25px;
   }
   .carousel-item {
     width: 80%;
-    margin-top: 150px;
-    margin-left: 40px;
+    margin-top: 120px;
+    margin-left: 39px;
   }
   .carousel-control-prev {
     margin-top: 250px;
@@ -621,23 +669,54 @@ footer section {
   }
   /* FIN CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
 }
-@media (max-width: 425px) {
+@media (max-width: 460px) {
+  /* INICIO CSS MEDIA QUERI INICIO.HTML (MAIN) */
+  .pagina-inicio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 110vh;
+  }
+  .comunidad-padel {
+    font-size: 60px;
+    padding-top: 80px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .grid-index-1 {
+    margin-top: 50px;
+    font-size: 16px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-index-2 {
+    margin-top: 15px;
+    font-size: 16px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  /* FIN CSS MEDIA QUERI INICIO.HTML (MAIN) */
+  /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
-  .grid-reserva {
-    grid-template-rows: repeat(7, 1fr);
+  .pagina-reserva {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 120vh;
   }
   .grid-reserva-1 {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 14px;
-    grid-row: 5/8;
+    grid-row: 5/9;
   }
   .grid-reserva-2 {
+    margin-top: 0;
     font-size: 14px;
     grid-row: 1/5;
   }
   .reserva-video {
-    width: 250px;
+    width: 290px;
     height: 150px;
   }
   .Reserva {
@@ -657,53 +736,62 @@ footer section {
   }
   /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
-  .grid-contacto {
-    height: 150vh;
+  .pagina-contacto {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 180vh;
   }
   .grid-contacto-2 {
-    display: none;
     grid-column: 1/2;
-    grid-row: 2/4;
+    grid-row: 2/5;
   }
   .formulario {
-    margin-top: 70px;
-    width: 80%;
-    font-size: 20px;
+    margin-top: 40px;
+    width: 70%;
+    font-size: 16px;
+    margin-left: 30px;
   }
   .box {
     padding: 3px;
   }
-  .tamaño {
+  .submit {
     width: 200px;
-    margin-right: 70px;
+  }
+  .tamaño {
+    width: 100px;
+    margin-right: 150px;
   }
   /* FIN CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
-  .grid-nosotros {
+  .pagina-nosotros {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 110vh;
   }
   .grid-nosotros-1 {
     grid-column: 1/1;
     grid-row: 1/1;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
   .grid-nosotros-2 {
-    grid-column: 1/2;
-    grid-row: 1/3;
-    margin-top: 250px;
+    grid-column: 1/1;
+    grid-row: 2/3;
   }
   .carousel-control-prev {
-    margin-top: 250px;
+    margin-top: -80px;
   }
   .carousel-control-next {
-    margin-top: 250px;
+    margin-top: -80px;
   }
   .carousel-item {
+    margin-top: 0;
     width: 70%;
-    margin-left: 70px;
+    margin-left: 65px;
   }
   /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
   .grid-footer {
@@ -753,6 +841,26 @@ footer section {
   /*FIN MENU HAMBURGUESA HTML */
 }
 @media (max-width: 320px) {
+  /* INICIO CSS MEDIA QUERI INICIO.HTML (MAIN) */
+  .comunidad-padel {
+    font-size: 45px;
+    padding-top: 60px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .grid-index-1 {
+    margin-top: 40px;
+    font-size: 14px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-index-2 {
+    margin-top: 30px;
+    font-size: 14px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  /* FIN CSS MEDIA QUERI INICIO.HTML (MAIN) */
   /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
   .grid-reserva {
     grid-template-rows: repeat(7, 1fr);
@@ -786,14 +894,17 @@ footer section {
   }
   /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
   /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
+  .pagina-contacto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh;
+  }
   .formulario {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 90%;
     font-size: 15px;
-  }
-  .grid-contacto {
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10px;
   }
   .grid-contacto-2 {
     width: 100px;
@@ -803,27 +914,18 @@ footer section {
     width: 100px;
   }
   .submit {
-    width: 150px;
+    width: 180px;
   }
   /* FIN CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
-  .grid-nosotros-1 {
-    grid-row: 1/2;
-  }
-  .grid-nosotros-2 {
-    grid-column: 1/2;
-    grid-row: 2/4;
-    margin-top: -100px;
-  }
   .carousel-item {
-    width: 70%;
     margin-left: 50px;
     margin-bottom: 50px;
   }
   .carousel-control-prev {
-    margin-top: 160px;
+    margin-top: -80px;
   }
   .carousel-control-next {
-    margin-top: 160px;
+    margin-top: -80px;
   }
   /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
   .grid-footer {

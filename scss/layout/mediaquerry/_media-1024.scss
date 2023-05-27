@@ -17,6 +17,25 @@
             font-size: 20px;
         }
         /* FIN CSS MEDIA QUERI HEADER PARA LOS 5 HTML*/
+
+        /* INICIO CSS MEDIA QUERI INICIO.HTML (MAIN) */
+        
+        .comunidad-padel{
+            font-size: 80px;
+            padding-top: 80px;
+        }
+
+        .grid-index-1{
+            font-size: 18px;
+        }
+
+        .grid-index-2{
+            font-size: 18px;
+        }
+
+
+
+        /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
         /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN) */
     
         .grid-reserva{
@@ -39,62 +58,66 @@
     
         /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN) */
 
-        /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
-
-                .carousel-item{
+                /* INICIO CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
+        
+                .grid-nosotros-1 {
+                    margin-top: 120px;
+                    font-size: 16px;
+                }
+        
+        
+                .grid-nosotros-2 {
+                    margin-top: 50px;
+                }
+        
+                .carousel-item {
                     width: 85%;
-                    margin-top: 150px;
                     margin-left: 40px;
                 }
-
-                .carousel-control-prev{
-                    margin-top: 200px;
-                }
-            
-                .carousel-control-next{
+        
+                .carousel-control-prev {
                     margin-top: 200px;
                 }
         
+                .carousel-control-next {
+                    margin-top: 200px;
+                }
         /* FIN CSS MEDIA QUERI NOSOTROS.HTML (MAIN)*/
         
         /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
         
+        .pagina-reserva{
+            @include grid(repeat(1, 1fr), repeat(8, 1fr), 160vh)
+        }
         .Reserva{
             padding: 50px 200px;
             font-weight: bolder;
         }
         
         .box-1{
-            margin-top: 20px;
+            margin-top: 5px;
             border: 0;
             background-color: #f4f4fd;
             border-radius: 20px;
-            padding: 15px;
-            outline: none;
-            text-align: center;
+            padding: 5px;
             width: 100%;
         }
         
         .box-2{
             margin-top: 40px;
-            width: 25%;
-            border: 0;
-            background-color: #f4f4fd;
-            border-radius: 20px;
-            padding: 5px;
-            outline: none;
-            text-align: center;
+            width: 15%;
         }
         .submit-1{
             margin-top: 40px;
         }
 
         .grid-reserva-1{
+            grid-row: 5 / 9;
             margin-top: 30px;
         }
 
         .grid-reserva-2{
-            margin-top: 0;
+            margin-top: 30px;
         }
 
         /* FIN CSS MEDIA QUERI RESERVA.HTML (MAIN)*/

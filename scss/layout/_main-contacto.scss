@@ -1,7 +1,6 @@
-main{
-    section{
+.pagina-contacto{
+        background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
         @include grid(repeat(2, 1fr), repeat(4, 1fr), 110vh)
-    }
 }
 
 .grid-contacto-1{

@@ -1,4 +1,30 @@
 @media(max-width: 320px){
+
+    /* INICIO CSS MEDIA QUERI INICIO.HTML (MAIN) */
+            
+                .comunidad-padel{
+                    font-size: 45px;
+                    padding-top: 60px;
+                    grid-column: 1 / 2;
+                    grid-row: 1 / 2;
+                }
+        
+                .grid-index-1{
+                    margin-top: 40px;
+                    font-size: 14px;
+                    grid-column: 1 / 2;
+                    grid-row: 2 / 3;
+                }
+        
+                .grid-index-2{
+                    margin-top: 30px;
+                    font-size: 14px;
+                    grid-column: 1 / 2;
+                    grid-row: 3 / 4;
+                }
+        
+    /* FIN CSS MEDIA QUERI INICIO.HTML (MAIN) */
+
     /* INICIO CSS MEDIA QUERI RESERVA.HTML (MAIN)*/
 
     .grid-reserva{
@@ -43,15 +69,15 @@
     /* INICIO CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
 
         
-    .formulario{
-        margin-top: 30px;
-        width: 90%;
-        font-size: 15px; 
+    .pagina-contacto{
+        @include grid(repeat(1, 1fr), repeat(2, 1fr), 100vh)
     }
 
-    .grid-contacto{
-        grid-template-rows: repeat(3,1fr);
-        grid-template-columns: repeat(1,1fr);
+    .formulario{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 15px; 
+        margin-left: 10px;
     }
 
     .grid-contacto-2{
@@ -64,34 +90,23 @@
     }
     
     .submit{
-        width: 150px;
+        width: 180px;
     }
 
     /* FIN CSS MEDIA QUERI CONTACTO.HTML (MAIN)*/
 
 
-    .grid-nosotros-1{
-        grid-row: 1 / 2;
-    }
-
-    .grid-nosotros-2{
-        grid-column: 1 / 2;
-        grid-row: 2 / 4;
-        margin-top: -100px;
-    }
-
     .carousel-item{
-        width: 70%;
         margin-left: 50px;
         margin-bottom: 50px;
     }
 
     .carousel-control-prev{
-        margin-top: 160px;
+        margin-top: -80px;
     }
 
     .carousel-control-next{
-        margin-top: 160px;
+        margin-top: -80px;
     }
 
 
