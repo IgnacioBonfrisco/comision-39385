@@ -1,15 +1,17 @@
 .pagina-planes{
+        background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
         @include grid(repeat(2, 1fr), repeat(4, 1fr), 110vh)
 }
 
 .grid-clases-1{
-    grid-column: 1 / 2;
+    grid-column: 1 / 3;
     grid-row: 1 / 2;
     margin-top: 25px;
     text-align: center;
     align-items: center;
     font-size: 25px;
     color: white;
+    font-weight: bolder;
 }
 
 .grid-clases-2{
@@ -34,8 +36,20 @@
     justify-content:space-between
 }
 .grid-nav-clases li{
-    margin-top: 5px;
+    margin-top: 10px;
     list-style: none;
+}
+
+.list{
+    margin-top: 90px
+}
+
+.button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    transition: 500ms;
 }
 
 .plan-1, .plan-2 ,.plan-3{
