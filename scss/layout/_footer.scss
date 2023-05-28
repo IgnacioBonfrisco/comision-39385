@@ -1,5 +1,5 @@
 footer{
-    background-image: linear-gradient(180deg, #315066 0, #1b1e21 50%, #000000 100%);
+    background-image: $background-footer;
     section{
         display: grid;
         grid-template-columns: repeat(10,1fr);

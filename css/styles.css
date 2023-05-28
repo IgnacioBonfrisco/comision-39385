@@ -13,7 +13,7 @@ body div .index, body div .nosotros, body div .clases, body div .reserva, body d
 }
 
 header {
-  background-color: linear-gradient(0, #19355b 0, #467ac8 50%, #70d6e6 100%);
+  background-image: linear-gradient(0, #19355b 0, #467ac8 50%, #70d6e6 100%);
 }
 header nav {
   display: grid;
