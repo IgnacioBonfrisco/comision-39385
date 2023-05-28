@@ -150,6 +150,7 @@ header nav input {
 
 .form-1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .form h2 {
@@ -833,7 +834,7 @@ footer section {
     margin-top: 25px;
   }
   .button {
-    width: 120px;
+    width: 150px;
     margin-bottom: 20px;
   }
   .cards-planes {
