@@ -111,22 +111,4 @@
 
 
 
-    /* INICIO CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
-
-    .grid-footer{
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-    }
-
-    .grid-footer-1 h3{
-        grid-column: 1 /4;
-        font-size: 15px;
-        margin-right: 10px;
-    }
-
-    .grid-footer-2{
-        grid-column: 4 / 6;
-    }
-
-    /* FIN CSS MEDIA QUERI FOOTER PARA LOS 5 HTML*/
 }
