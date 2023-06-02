@@ -36,8 +36,10 @@ header nav ul li a {
   transition: 0, 4s;
   cursor: pointer;
 }
-header nav img {
+header nav a {
   grid-column: 2/3;
+}
+header nav a img {
   width: 60px;
   border-radius: 5%;
 }

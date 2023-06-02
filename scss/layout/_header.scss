@@ -20,10 +20,12 @@ header{
                 }
             }
         }
-        img{
+        a{
             grid-column: 2 / 3;
-            width:60px;
-            border-radius: 5%;
+            img{
+                width:60px;
+                border-radius: 5%;
+            }
         }
         input{
             display: none;
